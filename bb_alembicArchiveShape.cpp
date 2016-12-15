@@ -43,7 +43,7 @@
 #include <math.h>
 #include <sys/stat.h>
 
-#include <bb_MayaIds.h>
+#include <MayaTypeIDs.h>
 
 #include "util.h"
 #include "bb_alembicArchiveShape.h"
@@ -62,6 +62,8 @@
 #include <maya/MDrawData.h>
 #include <maya/MSelectionMask.h>
 #include <maya/MSelectionList.h>
+#include <maya/MArrayDataHandle.h>
+#include <maya/MArrayDataBuilder.h>
 
 #include <maya/MHardwareRenderer.h>
 #include <maya/MGLFunctionTable.h>
